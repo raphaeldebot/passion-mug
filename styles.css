@@ -7,14 +7,14 @@ body {
 
 nav {
     background-color: rgb(0, 255, 60);
-    text-align: end;
+    text-align: start;
 }
 
 nav ul li {
     display: inline-flex;
     text-decoration: none;
     gap: 2rem;
-
+    padding: 0.2rem 0.2rem 0.2rem 0rem;
 
 
 }
@@ -35,7 +35,7 @@ nav ul li {
 }
 
 .accroche {
-
+    padding: 0.8rem;
 }
 
 .hero-accroche button {
@@ -52,6 +52,7 @@ nav ul li {
     background-size: 30rem;
     background-repeat: no-repeat;
     margin-left: 6rem;
+    margin-top: 2rem;
 }
 
 .image-tasse-hero img {
