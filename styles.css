@@ -17,6 +17,10 @@ nav ul li {
 
 }
 
+nav h1{
+    text-align: end;
+}
+
 .hero {
     display: flex;
     background-color: rgb(73, 72, 72);
