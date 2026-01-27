@@ -1,62 +1,86 @@
+* {
+    margin: 0;
+}
+
 body {
-    margin: 0 20% 0 20%;
     background-color: rgb(41, 35, 36);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.header {
+    font-family: "Mochiy Pop One", sans-serif;
+    text-align: center;
+    padding: 30px;
+    color:  rgb(0, 255, 60);
+
+
 }
 
 nav {
     background-color: rgb(0, 255, 60);
     text-align: start;
+    padding-left: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 0px 10px 0px;
 }
 
 nav ul li {
     display: inline-flex;
     text-decoration: none;
     gap: 2rem;
-    padding: 0.2rem 0.2rem 0.2rem 0rem;
 
 
 }
 
-nav h1{
+nav h1 {
     text-align: end;
 }
 
-.hero {
-    display: flex;
+.hero-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     background-color: rgb(73, 72, 72);
     border: 0.1rem solid;
+    margin: 30px 0px 30px 0px;
 }
 
 .hero-accroche {
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
-    padding-left: 2rem;
+    padding: 30px;
     gap: 0.5rem;
+    font-size: 24px;
 }
 
 .accroche {
-    padding: 0.8rem;
-    margin-left: 2rem;
-    margin-right: 1rem;
+
 }
 
 .hero-accroche button {
     background-color: rgb(0, 255, 60);
     border-radius: 10px;
     max-width: 10rem;
+        padding: 0.8rem;
+
 }
 
-.tasse-hero-container {
-}
+.tasse-hero-container {}
 
 .tasse-hero {
     background-image: url(images/tassenoirepng.png);
-    background-size: 30rem;
+    background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 6rem;
-    margin-top: 2rem;
+    background-position: center;
+    margin: 30px;
+
+
 }
 
 .image-tasse-hero img {
