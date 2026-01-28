@@ -9,7 +9,6 @@ body {
 .container {
     max-width: 1100px;
     margin: 40px auto;
-    padding: 20px;
 }
 
 .header {
@@ -17,24 +16,33 @@ body {
     text-align: center;
     padding: 30px;
     color:  rgb(0, 255, 60);
-
+    width: 300px;
+    margin: auto;
 
 }
 
 nav {
     background-color: rgb(0, 255, 60);
     text-align: start;
-    padding-left: 30px;
     font-size: 16px;
     text-decoration: none;
-    padding: 10px 0px 10px 0px;
+    padding: 10px auto;
+    width: 450px;
+    margin: 0 auto;
+}
+
+nav ul{
+    text-align: center;
+    width: 450px;
+    margin: 0px auto;
+    padding: 20px 0;
 }
 
 nav ul li {
-    display: inline-flex;
+    display: inline-block;
     text-decoration: none;
     gap: 2rem;
-
+    width: 100px;
 
 }
 
@@ -44,13 +52,15 @@ nav h1 {
 
 .hero-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 3fr);
     background-color: rgb(73, 72, 72);
     border: 0.1rem solid;
     margin: 30px 0px 30px 0px;
 }
 
 .hero-accroche {
+    grid-column-start: 1;
+    grid-column-end: 3;
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -71,26 +81,34 @@ nav h1 {
 
 }
 
-.tasse-hero-container {}
+.tasse-hero-container {
+    width: 400px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
 
 .tasse-hero {
-    background-image: url(images/tassenoirepng.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 30px;
-
+    position: relative;
+    text-align: center;
+    width: 400px;
+}
+.tasse-hero img{
+        width: 400px;
 
 }
 
 .image-tasse-hero img {
-    width: 16.5rem;
-    padding: 3rem 11rem 3rem 2rem;
+    position:absolute;
+    top: 25px;
+    left:15px;
+    width: 240px;
 
 }
 
 footer {
     background-color: rgb(0, 255, 60);
-
     text-align: center;
+    width: 120px;
+    margin: 0 auto;
+    padding: 10px 0;
 }
