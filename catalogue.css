@@ -123,6 +123,10 @@ left: 8px;
     padding: 0.8rem;
 }
 
+.card-btn a{
+    text-decoration: none;
+}
+
 footer {
     background-color: rgb(0, 255, 60);
     text-align: center;

@@ -104,9 +104,10 @@ nav h1 {
 
 .image-tasse-hero img {
     position:absolute;
-    top: 25px;
+    top: 70px;
     left:15px;
     width: 240px;
+    opacity: 80%;
 
 }
 
