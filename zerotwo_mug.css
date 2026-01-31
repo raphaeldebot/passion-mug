@@ -4,7 +4,7 @@
 
 body {
     background-color: #000000;
-        font-family: "sintony",sans-serif;
+    font-family: "sintony", sans-serif;
 
 }
 
@@ -17,7 +17,7 @@ body {
     font-family: "Mochiy Pop One", sans-serif;
     text-align: center;
     padding: 30px;
-    color:  rgb(0, 255, 60);
+    color: rgb(0, 255, 60);
     width: 300px;
     margin: auto;
 
@@ -30,10 +30,10 @@ nav {
     padding: 10px auto;
     width: 450px;
     margin: 0 auto;
-    
+
 }
 
-nav ul{
+nav ul {
     text-align: center;
     width: 450px;
     margin: 0px auto;
@@ -47,10 +47,12 @@ nav ul li {
     width: 100px;
 
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #000000;
 }
+
 nav h1 {
     text-align: end;
 }
@@ -81,8 +83,8 @@ nav h1 {
 .hero-accroche button {
     background-color: rgb(0, 255, 60);
     border-radius: 10px;
-    max-width: 10rem;
-        padding: 0.8rem;
+    width: 100px;
+    padding: 0.8rem;
 
 }
 
@@ -97,18 +99,24 @@ nav h1 {
     text-align: center;
     width: 400px;
 }
-.tasse-hero img{
-        width: 400px;
+
+.tasse-hero img {
+    width: 400px;
 
 }
 
 .image-tasse-hero img {
-    position:absolute;
+    position: absolute;
     top: 25px;
-    left:15px;
+    left: 15px;
     width: 240px;
-
 }
+
+.hero-accroche a {
+    text-decoration: none;
+}
+
+
 
 footer {
     background-color: rgb(0, 255, 60);
